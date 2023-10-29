@@ -118,10 +118,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT-Midjourney
+          密涅瓦AI小助手
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Your own AI assistant.
+          AI课堂
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -133,7 +133,7 @@ export function SideBar(props: { className?: string }) {
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
           className={styles["sidebar-bar-button"]}
-          onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
+          //onClick={() => navigate(Path.NewChat, { state: { fromHome: true } })}
           shadow
         />
         <IconButton
@@ -175,7 +175,7 @@ export function SideBar(props: { className?: string }) {
           </div>
           <div className={styles["sidebar-action"]}>
             <a href={REPO_URL} target="_blank">
-              <IconButton icon={<GithubIcon />} shadow />
+              //<IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
         </div>
