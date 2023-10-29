@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 
 import styles from "./home.module.scss";
 
+
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
